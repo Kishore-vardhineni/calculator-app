@@ -1,9 +1,53 @@
-.App {
-  text-align: center;
-  padding-top: 5px;
-}
-button {
-  padding: 5px;
-  margin: 4px;
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+   flex-direction: column;
 }
 
+.output {
+   outline: none;
+   border: none;
+   width: 320px;
+   height: 70px;
+   font-size: 32px;
+   padding: 2px 10px;
+   text-align: right;
+   background-color: black;
+   color: white;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+button {
+   width: 85px;
+   height: 90px;
+   font-size: 25px;
+   cursor: pointer;
+   border: none;
+   border-right: 1px solid black;
+   border-top: 1px solid black;
+}
+
+.operator {
+   border-right: none;
+   background-color: orange;
+   color: white;
+}
+
+.func-key {
+   background-color: gray;
+}
+
+.digit:hover {
+   background-color: green;
+}
+
+.func-key:hover {
+   background-color: greenyellow;
+}
+
+.operator:hover {
+   background-color: aqua;
+}
